@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gou-manager-web:war">
+    <output-path>$PROJECT_DIR$/gou-parent/gou-manager-web/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gou-manager-web</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gou-manager-web-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gou-manager-web:war exploded" />
+    </root>
+  </artifact>
+</component>

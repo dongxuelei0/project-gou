@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gou-dao" />
+        <module name="gou-common" />
+        <module name="gou-sellergoods-service" />
+        <module name="gou-pojo" />
+        <module name="gou-manager-web" />
+        <module name="gou-shop-web" />
+        <module name="gou-sellergoods-interface" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="gou-common" target="1.5" />
+      <module name="gou-dao" target="1.5" />
+      <module name="gou-manager-web" target="1.5" />
+      <module name="gou-parent" target="1.5" />
+      <module name="gou-pojo" target="1.5" />
+      <module name="gou-sellergoods-interface" target="1.5" />
+      <module name="gou-sellergoods-service" target="6" />
+      <module name="gou-shop-web" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

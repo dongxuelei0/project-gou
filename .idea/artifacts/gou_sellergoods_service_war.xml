@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="gou-sellergoods-service:war">
+    <output-path>$PROJECT_DIR$/gou-parent/gou-sellergoods-service/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>gou-sellergoods-service</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="gou-sellergoods-service-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="gou-sellergoods-service:war exploded" />
+    </root>
+  </artifact>
+</component>

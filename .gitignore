@@ -1,0 +1,8 @@
+# Project exclude paths
+/gou-parent/gou-common/target/
+/gou-parent/gou-dao/target/
+/gou-parent/gou-manager-web/target/
+/gou-parent/gou-pojo/target/
+/gou-parent/gou-sellergoods-interface/target/
+/gou-parent/gou-sellergoods-service/target/
+/gou-parent/gou-shop-web/target/

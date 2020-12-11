@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/gou-parent/gou-common/gou-common.iml" filepath="$PROJECT_DIR$/gou-parent/gou-common/gou-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gou-parent/gou-dao/gou-dao.iml" filepath="$PROJECT_DIR$/gou-parent/gou-dao/gou-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gou-parent/gou-manager-web/gou-manager-web.iml" filepath="$PROJECT_DIR$/gou-parent/gou-manager-web/gou-manager-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gou-parent/gou-parent.iml" filepath="$PROJECT_DIR$/gou-parent/gou-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gou-parent/gou-pojo/gou-pojo.iml" filepath="$PROJECT_DIR$/gou-parent/gou-pojo/gou-pojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gou-parent/gou-sellergoods-interface/gou-sellergoods-interface.iml" filepath="$PROJECT_DIR$/gou-parent/gou-sellergoods-interface/gou-sellergoods-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gou-parent/gou-sellergoods-service/gou-sellergoods-service.iml" filepath="$PROJECT_DIR$/gou-parent/gou-sellergoods-service/gou-sellergoods-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gou-parent/gou-shop-web/gou-shop-web.iml" filepath="$PROJECT_DIR$/gou-parent/gou-shop-web/gou-shop-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/project-gou.iml" filepath="$PROJECT_DIR$/.idea/project-gou.iml" />
+    </modules>
+  </component>
+</project>
