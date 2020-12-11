@@ -8,7 +8,11 @@
         http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd
         http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
     <context:property-placeholder location="classpath:config/application.properties" />
-	
+	<!--若不开启dubbo这个加上扫描-->
+	<!--     启用spring mvc 注解 -->
+	<context:annotation-config />
+	<!-- 设置使用注解的类所在的包 -->
+	<context:component-scan base-package="com.pinyougou.shop.controller"></context:component-scan>
 	<mvc:annotation-driven>
 	  <mvc:message-converters register-defaults="true">
 	    <bean class="com.alibaba.fastjson.support.spring.FastJsonHttpMessageConverter">  
@@ -24,8 +28,11 @@
 	</mvc:annotation-driven>
 
 	<!-- 引用dubbo 服务 -->
-	<dubbo:application name="pinyougou-shop-web" />
-	<dubbo:registry address="zookeeper://192.168.25.135:2181"/>
-	<dubbo:annotation package="com.pinyougou.shop.controller" />  	
+<!--	<dubbo:application name="pinyougou-shop-web" />-->
+<!--	<dubbo:registry address="zookeeper://59.110.219.215:2181"/>-->
+<!--	<dubbo:annotation package="com.pinyougou.shop.controller" />-->
+
+
+
 
 </beans>
