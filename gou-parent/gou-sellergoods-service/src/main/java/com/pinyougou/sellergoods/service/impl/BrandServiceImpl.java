@@ -12,6 +12,7 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.pinyougou.mapper.TbBrandMapper;
 import com.pinyougou.pojo.TbBrand;
 import com.pinyougou.sellergoods.service.BrandService;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.transaction.annotation.Transactional;
 import util.Result;
 
@@ -21,6 +22,9 @@ public class BrandServiceImpl implements BrandService {
 
 	@Autowired
 	private TbBrandMapper brandMapper;
+
+	@Autowired
+	private RedisTemplate redisTemplate;
 	
 	@Override
 	public List<TbBrand> findAll() {
@@ -51,6 +55,9 @@ public class BrandServiceImpl implements BrandService {
 	@Override
 	public void add(TbBrand brand) {
 		brandMapper.insert(brand);
+		redisTemplate.boundValueOps("brand").set(brand);
+		Object brand1 = redisTemplate.boundValueOps("brand").get();
+		System.out.println(brand1);
 
 	}
 
