@@ -9,6 +9,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/gou-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/fastdfsDemo/pom.xml" />
       </list>
     </option>
   </component>

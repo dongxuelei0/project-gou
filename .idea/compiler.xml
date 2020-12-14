@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="gou-dao" />
         <module name="gou-common" />
+        <module name="fastdfsDemo" />
         <module name="gou-sellergoods-service" />
         <module name="gou-pojo" />
         <module name="gou-manager-web" />
@@ -16,6 +17,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="fastdfsDemo" target="1.5" />
       <module name="gou-common" target="1.5" />
       <module name="gou-dao" target="1.5" />
       <module name="gou-manager-web" target="1.5" />
