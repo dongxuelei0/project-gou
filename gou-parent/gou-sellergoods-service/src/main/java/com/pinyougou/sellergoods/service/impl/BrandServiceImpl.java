@@ -12,7 +12,11 @@ import com.alibaba.dubbo.config.annotation.Service;
 import com.pinyougou.mapper.TbBrandMapper;
 import com.pinyougou.pojo.TbBrand;
 import com.pinyougou.sellergoods.service.BrandService;
+import org.springframework.transaction.annotation.Transactional;
+import util.Result;
+
 @Service
+@Transactional
 public class BrandServiceImpl implements BrandService {
 
 	@Autowired
@@ -41,6 +45,12 @@ public class BrandServiceImpl implements BrandService {
 
 		Page<TbBrand> page = (Page<TbBrand>) brandMapper.selectByExample(tbBrandExample);
 		return new PageResult(page.getTotal(),page.getResult());
+
+	}
+
+	@Override
+	public void add(TbBrand brand) {
+		brandMapper.insert(brand);
 
 	}
 
