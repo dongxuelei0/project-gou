@@ -10,6 +10,7 @@
         <module name="gou-common" />
         <module name="fastdfsDemo" />
         <module name="gou-sellergoods-service" />
+        <module name="SpringDataRedisDemo" />
         <module name="gou-pojo" />
         <module name="gou-manager-web" />
         <module name="gou-shop-web" />
@@ -26,6 +27,7 @@
       <module name="gou-sellergoods-interface" target="1.5" />
       <module name="gou-sellergoods-service" target="6" />
       <module name="gou-shop-web" target="1.5" />
+      <module name="SpringDataRedisDemo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>
